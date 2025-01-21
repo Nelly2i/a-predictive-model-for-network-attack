@@ -62,7 +62,7 @@ predictive-model-network-attacks/
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/a-predictive-model-for-network-attack.git
+   git clone https://github.com/Nelly2i/a-predictive-model-for-network-attack.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -70,7 +70,7 @@ predictive-model-network-attacks/
    ```
 3. Install dependencies:
    ```bash
-   pip install -r api/requirements.txt
+   pip install -r requirements.txt
    ```
 
 ### Usage
@@ -110,9 +110,9 @@ The CNN model achieved the following metrics during evaluation:
 - ROC-AUC Score: **99.99%**
 - Mean Cross Validation Accuracy: **99.76%**
 Classification Report
-
+```
               precision    recall  f1-score   support
-
+  
      ipsweep       1.00      1.00      1.00      1088
        satan       1.00      0.99      1.00       710
    portsweep       0.99      1.00      1.00       410
@@ -122,7 +122,7 @@ Classification Report
     accuracy                           1.00      2598
    macro avg       0.99      1.00      1.00      2598
 weighted avg       1.00      1.00      1.00      2598
-
+```
 ---
 
 ## Future Work
@@ -130,11 +130,6 @@ weighted avg       1.00      1.00      1.00      2598
 2. Improve accuracy by experimenting with hybrid models.
 3. Expand datasets to include more attack types.
 4. Integrate the API into a comprehensive security information and event management (SIEM) system.
-
----
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
